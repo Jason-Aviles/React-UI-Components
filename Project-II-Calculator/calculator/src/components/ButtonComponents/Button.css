@@ -1,0 +1,70 @@
+.box{
+    background: rgb(0, 0, 0);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+    
+}
+
+.inside{
+   display: flex;
+}
+.numberBox{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.numberBox div {
+    text-align: center;
+    background: rgba(246, 235, 235, 0.911);
+    padding: 0;
+    font-size: 1.5rem;
+    border: 1px solid rgb(168, 168, 168);
+    width: 53px;
+    text-align: center;
+    font-weight: bold;
+    height: 95.5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zero{
+margin: 0 auto;
+width: 89.5% !important;
+}
+
+
+
+
+.sighBox div {
+    background: rgb(221, 165, 165);
+    /* background: red; */
+    padding: 15px;
+    font-size: 1.5rem;
+    border: 1px solid rgb(168, 168, 168);
+    width: 41%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CLEAR {
+    background: rgba(246, 235, 235, 0.911);
+    border: 1px solid rgb(168, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: .6rem;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+}

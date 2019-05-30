@@ -1,0 +1,20 @@
+.display{
+    text-align: left;
+  
+width: 100%;
+display: flex;
+justify-items: center;
+align-items: center;
+}
+
+input {
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 21.3%;
+    background: darkblue;
+    color: whitesmoke;
+    padding: 10px 32.7px;
+    font-size: 2rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,12 @@
+.main-container{
+    width: 48%;
+    height: auto;
+    background: rgba(244, 244, 247, 0.88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% auto 0 auto;
+   
+  }
+
